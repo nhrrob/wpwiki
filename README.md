@@ -3,7 +3,6 @@ A wiki for wordpress. Covers issue solutions as well as basic concepts of wordpr
 
 <p align="left">
 <a href="https://github.com/nhrrob/wpwiki/stargazers"><img src="https://img.shields.io/github/stars/nhrrob/wpwiki?style=flat-square" alt="Stars"></a>
-
 <a href="https://github.com/nhrrob/wpwiki/blob/master/LICENSE.md"><img alt="GitHub license" src="https://img.shields.io/github/license/nhrrob/wpwiki"></a>
 </p>
 
