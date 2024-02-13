@@ -7,9 +7,9 @@ A wiki for wordpress. Covers issue solutions as well as basic concepts of wordpr
 </p>
 
 ## Topics
-- <a href="https://github.com/nhrrob/issue-solutions.md" target="_blank">Issue Solutions</a>
-- <a href="https://github.com/nhrrob/upload-plugin-to-wordpress-plugin-directory-part-1" target="_blank">1 Upload Plugin to WordPress Plugin Directory | Manual Deploy using SVN CLI</a>
-- <a href="https://github.com/nhrrob/upload-plugin-to-wordpress-plugin-directory-part-2" target="_blank">2 Upload Plugin to WordPress Plugin Directory| Auto Deploy using Github Actions</a>
+- <a href="https://github.com/nhrrob/wpwiki/issue-solutions.md" target="_blank">Issue Solutions</a>
+- <a href="https://github.com/nhrrob/wpwiki/upload-plugin-to-wordpress-plugin-directory-part-1" target="_blank">1 Upload Plugin to WordPress Plugin Directory | Manual Deploy using SVN CLI</a>
+- <a href="https://github.com/nhrrob/wpwiki/upload-plugin-to-wordpress-plugin-directory-part-2" target="_blank">2 Upload Plugin to WordPress Plugin Directory| Auto Deploy using Github Actions</a>
 
 ## Contact
 
