@@ -133,7 +133,7 @@ svn ci -m "tagging version 2.0"
 
 ### We are done!
 
-- Congratulations! You have successfully setup PHPCS (PHP CodeSniffer) in WordPress 
+- Congratulations! You have successfully completed "Upload Plugin to WordPress Plugin Directory | Manual Deploy using SVN CLI"
 
 <br>
 
