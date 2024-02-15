@@ -43,8 +43,15 @@ Ref:
 <br>
 
 #### Default Image Sizes
-- banner-772x250.(png|jpg) (4MB max)
-- icon-256x256.(png|jpg) (1MB max)
+Banner
+- Normal: banner-772x250.(png|jpg) (4MB max)
+- HD: banner-1544x500.(jpg|png)
+
+Icons
+- Normal: icon-128x128.(png|jpg) (1MB max)
+- HD: icon-256x256.(png|jpg)
+
+Screenshots
 - screenshot-1.(png|jpg) (10MB max)
 - screenshot-2.(png|jpg)
 
@@ -65,7 +72,6 @@ Ref:
 
 ### Step 1. Create Local Directory
 - First create a local directory on your machine to house a copy of the SVN repository: 
-- 
 ```
 mkdir my-local-dir
 ```
