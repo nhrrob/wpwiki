@@ -1,35 +1,76 @@
-## #NHRWPWiki
+## 2 Upload Plugin to WordPress Plugin Directory| Auto Deploy using Github Actions
 
-### List of Issues
-- Issue 1: Installing plugin requires ftp access 
-- Issue 2: Updating wordpress failed due to permission issue
+<br/>Date: February 26, 2024 <br/>
 
-## 
+Ref:
+- https://github.com/10up/action-wordpress-plugin-deploy
+- https://github.com/10up/action-wordpress-plugin-asset-update
 
-### Issue Solutions
-
-#### Issue 1: Installing plugin requires ftp access 
-
-Solution: 
-Add below code in wp-config.php
-	<code>define('FS_METHOD','direct');</code>
-
-#### Issue 2: Updating wordpress failed due to permission issue
-Error message: 
-Could not create directory.
-Installation failed.
-
-Solution:
-Run below commands form your project root.
-
+### Github Action - WordPress Plugin Deploy (by 10up)
+#### Action Info
+- Action Repo: https://github.com/10up/action-wordpress-plugin-deploy
+- This action commits contents of your Git tag to the WordPress.org plugin repository using the same tag name.
+- It exclude files using .distignore. 
+- Moves plugin icons/assets from your-github-repo/.wordpress-org to svn-repo/assets folder.
+- Required Github Secrets (from repo settings)
 ```
-sudo chown -R www-data:www-data wp-content/plugins/
-sudo chmod 775 wp-content
+SVN_USERNAME
+SVN_PASSWORD
+```
+- Optional Environment Variables
+```
+SLUG - If repo and plugin slug is different
+```
+<br>
 
-sudo chown -R www-data:www-data wp-content/
+#### Create an Action to Auto Deploy
+- We will create a github action to auto deploy from github to org (using 10up's action).
+- Our github action location: your-repo/.github/workflows/{deploy-on-pushing-a-new-tag.yml}
+
+<br>
+
+#### Sample .distignore 
+``` 
+/.wordpress-org
+/.git
+/.github
+/node_modules
+
+.distignore
+.gitignore
 ```
 
-Ref Link: https://stackoverflow.com/questions/37157264/wordpress-plugin-install-could-not-create-directory 
+<br>
+
+#### Example : Deploy on Publishing Tag
+- https://github.com/10up/action-wordpress-plugin-deploy/blob/develop/examples/deploy-on-pushing-a-new-tag.yml 
+
+<br>
 
 
-#### Issue 3: TBA
+### Github Action - WordPress Plugin Asset Update (by 10up)
+
+#### Action Info
+- Action Repo: https://github.com/10up/action-wordpress-plugin-asset-update
+
+<br>
+
+#### TBA
+- TBA
+
+<br>
+
+### We are done!
+
+- Congratulations! You have successfully setup Upload Plugin to WordPress Plugin Directory| Auto Deploy using Github Actions 
+
+<br>
+
+
+### Bonus:
+- TBA
+
+<br>
+
+
+### <a href='https://github.com/nhrrob/wpwiki'>Back to WP Wiki</a>
