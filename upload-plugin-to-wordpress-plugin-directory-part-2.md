@@ -47,6 +47,8 @@ SLUG - If repo and plugin slug is different
 
 <br>
 
+<hr>
+<br>
 
 ### Github Action - WordPress Plugin Asset Update (by 10up)
 
