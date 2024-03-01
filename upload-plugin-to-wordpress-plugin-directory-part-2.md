@@ -31,10 +31,10 @@ SLUG - If repo and plugin slug is different
 
 #### Sample .distignore 
 ``` 
-/.wordpress-org
-/.git
-/.github
-/node_modules
+.wordpress-org
+.git
+.github
+node_modules
 
 .distignore
 .gitignore
