@@ -12,7 +12,7 @@ Ref:
 - This action commits contents of your Git tag to the WordPress.org plugin repository using the same tag name.
 - It exclude files using .distignore. 
 - Moves plugin icons/assets from your-github-repo/.wordpress-org to svn-repo/assets folder.
-- Required Github Secrets (from repo settings)
+- Required Github Secrets (From repository settings -> Secrets and Variables -> actions -> New repository secret) 
 ```
 SVN_USERNAME
 SVN_PASSWORD
