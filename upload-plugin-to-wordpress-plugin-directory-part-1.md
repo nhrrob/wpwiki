@@ -1,8 +1,8 @@
-# You don't need Tortoise SVN. Just use CLI
-
 ## 1 Upload Plugin to WordPress Plugin Directory | Manual Deploy using SVN CLI
 
 <br/>Date: February 15, 2024 <br/>
+
+### You don't need Tortoise SVN. Just use CLI
 
 Ref:
 - https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/
