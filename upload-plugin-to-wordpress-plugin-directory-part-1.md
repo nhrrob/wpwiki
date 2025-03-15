@@ -133,6 +133,11 @@ svn ci -m "tagging version 2.0"
 
 <br>
 
+FROM Warp (When above commands didnt work, I tried these):
+```
+svn delete 1.1.3-beta1 && svn ci -m "Remove beta version 1.1.3-beta1"
+```
+
 ### We are done!
 
 - Congratulations! You have successfully completed "Upload Plugin to WordPress Plugin Directory | Manual Deploy using SVN CLI"
